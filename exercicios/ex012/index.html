@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Vídeos</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Formato de Vídeos</h1>
+    
+    <!-- Este vídeo está hospedado localmente -->
+
+    <h3>Vamos assistir a um vídeo do Lucas andando de skate!!</h3>
+    <video style="display: block; margin-left: auto; margin-right: auto;" width="900" poster="imagens/minhaImagem.jpg" controls>
+        <source src="midias/Meuvideo.mkv" type="video/mp4">
+        <source src="midias/Meuvideo.webm" type="video/webm">
+        <source src="midias/meuVideo.mp4" type="video/mp4">
+        <source src="midias/meuVideo.ogv" type="video/ogg">
+    </video>
+
+    <h2>Inserindo vídeos do Youtube</h2>
+    
+    <!-- Este vídeo está hospedado no Youtube -->
+    
+    <iframe style="display: block; margin-left: auto; margin-right: auto;" width="900" height="600" src="https://www.youtube.com/embed/9qzMHjVm0C8?si=f19qzPYhyE6gFF6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Meu vídeo no Youtube</h2>
+
+    <iframe style="display: block; margin-left: auto; margin-right: auto;" width="900" height="600" src="https://www.youtube.com/embed/IF8jYQvrhq8?si=qFUcb-7X7fDBPd27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

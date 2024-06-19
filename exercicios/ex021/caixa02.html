@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        #entretenimento {
+            background-color: #9D9A89;
+            color: black;
+            font-weight: 600;
+            border: 2px solid #8F1612;
+            border-radius: 10px;
+            box-shadow: 8px 8px 20px 4px rgba(0, 0, 0, 0.585);
+            padding: 1px;
+            margin: 2px auto 2px auto;
+            text-align: center;
+        }
+
+        .especial {
+            display: block;
+            margin: 2px auto 2px auto;
+            /* border: 2px dashed orangered; */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .sublinhado {
+            text-decoration: underline;
+        }
+        
+        body {
+            background-color: #483C36;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #f1e49b;
+            color: white;
+            padding: 10px 10px 10px 10px;
+            border: 3px solid rgb(30, 9, 9);
+            margin: auto;
+            text-align: center;
+        }
+
+        main {
+            background-color: #E1DCC4;
+            color: black;
+            padding: 10px 10px 10px 10px;
+            border: 3px solid rgb(30, 9, 9);
+            margin: auto;
+        }
+
+        nav {
+            background-color: #eb5a55;
+            border-radius: 10px;
+            box-shadow: 8px 8px 20px 4px rgba(0, 0, 0, 0.585);
+        }
+
+        nav > a {
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        p > a {
+            color: black;
+            text-decoration: none;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+        aside {
+            background-color: rgb(177, 155, 155);
+        }
+
+        footer {
+            margin: auto;
+            padding: 2px 2px 2px
+            2px;            
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <h2>Navegação do dia</h2>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+            <a href="https://ge.globo.com/" target="_blank">Esportes</a>
+            <a href="https://www.microsoft.com/pt-br/" target="_blank">Microsoft</a>
+            <a href="https://www.apple.com/br/" target="_blank">Apple</a>
+        </nav>
+    </header>
+    <main>
+        <section id="entretenimento">
+            <h2>Entretenimento</h2>
+            <p class="especial"><a href="https://www.microsoft.com/pt-br/store/top-free/games/pc">Página de jogos Microsoft</a></p>
+            <p class="especial"><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root?_encoding=UTF8&language=pt_br">Página de filmes Amazon</a></p>
+        </section>
+        <section id="artigos">
+            <article>
+                <h2 class="sublinhado">Notícias sobre o Brasil e o Mundo</h2>
+
+                <h3>Festival de comida italiana, Festa de São Vito, vai até 14 de junho com cardápio tradicional e ingressos a partir de R$ 10</h3>
+
+                <p>Ingressos custam R$ 10, para a praça de alimentação ou R$ 60, para a cantina. Evento conta com shows e também é comemoração dos 150 anos da imigração italiana no Brasil. <a href="https://g1.globo.com/guia/guia-sp/noticia/2024/06/01/festival-de-comida-italiana-festa-de-sao-vito-vai-ate-14-de-junho-com-cardapio-tradicional-e-ingressos-a-partir-de-r-10.ghtml" target="_blank"><strong>Siga &rarr;</strong></a></p>
+
+                <h3>Análise: Botafogo supera tabu, volta à liderança e mostra força nas três frentes</h3>
+
+                <p>
+                    Vitória sobre o Corinthians é a primeira do clube na Neo Química Arena. <a href="https://ge.globo.com/futebol/times/botafogo/noticia/2024/06/02/analise-botafogo-supera-tabu-volta-a-lideranca-e-mostra-forca-nas-tres-frentes.ghtml" target="_blank"><strong>Siga &rarr;</strong></a>
+                </p>
+
+                <h3>Guerra de lixo: Coreia do Norte lança mais 600 balões contra Seul</h3>
+
+                <p>
+                    Coreia do Norte voltou a enviar centenas de balões com dejetos à Coreia do Sul; autoridades alertaram moradores a não tocarem nos objetos <a href="https://www.terra.com.br/planeta/noticias/guerra-de-lixo-coreia-do-norte-lanca-mais-600-baloes-contra-seul,f9688e151ba22fbdcc8f638cee96e507ecn1ez9l.html?utm_source=clipboard" target="_blank"><strong>Siga &rarr;</strong></a>
+                </p>
+
+                <h3>Mais de 30 agentes eleitorais morrem durante eleições na Índia devido ao calor extremo</h3>
+
+                <p>
+                    Mortes aconteceram no sábado, 1º, no estado indiano de Uttar Pradesh. País enfrenta ondas de calor excepcionais, com recorde de temperaturas <a href="https://www.terra.com.br/noticias/mundo/mais-de-30-agentes-eleitorais-morrem-durante-eleicoes-na-india-devido-ao-calor-extremo,e41bc29ab47dd58d3807b216ca85857b2wltv7u1.html?utm_source=clipboard" target="_blank"><strong>Siga &rarr;</strong></a>
+                </p>
+                <aside>
+                    <p>Conteúdo postado por Leandro Lopes</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Leandro Lopes
+    </footer>
+</body>
+</html>

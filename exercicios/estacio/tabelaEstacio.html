@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Estácio</title>
+    <style>
+        body{
+            background-color: rgb(216, 241, 233);
+        }
+        h1{
+            text-align: center;
+        }
+        th{
+            background-color: rgb(38, 38, 103);
+            color: white;
+        }
+        td{
+            background-color: rgb(227, 213, 213);
+        }
+        border{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table width="100%" border="1">
+        <tr>
+            <th colspan="3">Atributos</th>
+        </tr>
+        <tr>
+            <th width="10%">Atributo</th>
+            <th>Função</th>
+            <th>Comentário</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>placeholder</strong></td>
+            <td>Exibir um texto no campo de input.</td>
+            <td>utilizado para dar uma dica ao usuário sobre o dado a ser inserido.</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>required</strong></td>
+            <td>Determinar se um campo é obrigatório.</td>
+            <td>utilizado na validação dos dados de um formulário.</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>autofocus</strong></td>
+            <td>Fixar o foco no campo.</td>
+            <td>utilizado quando desejamos que, ao carregar o formulário, um determinado campo seja focado.</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>pattern</strong></td>
+            <td>Validar o valor de um campo com base em uma expressão regular.
+                (As RegEX – expressões regulares – podem ser consideradas um recurso de linguagem de programação para a análise e manipulação de texto.)</td>
+            <td>O campo de tel. é um bom exemplo de utilização desse atributo. Com ele podemos, por exemplo, determinar a quantidade de caracteres e o formato esperado para um campo</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <th colspan="3">Final</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

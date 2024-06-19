@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em (altura relativa a letra M maiúscula da fonte), ex (altura relativa a letra x minúscula da fonte), rem (altura relativa ao root da body, que está no configurada no momento), vw (porcentagem da viewport), vh (altura da viewport), %
+            */
+            /* Medidas recomendadas para font-size é px e em*/
+            /* em é ainda o mais recomendado para uso */
+            /* 1em é geralmente o tamanho equivalente a 16px */
+            font-size: 16px;
+            /* font-weight: Especifica o peso da fonte, bold, bolder, lighter */
+            font-weight: normal;
+        }
+        h1 {
+            /* shorthand font */
+            /* Sequência -> font style -> font-weight -> font-size -> font-family */
+            /* font substitui esta sequência
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: italic bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, placeat non id aspernatur voluptatibus maxime. Quam odit repellat sunt, rerum nihil beatae aut hic dolores veritatis exercitationem eligendi error. Commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? Ea obcaecati animi blanditiis reprehenderit voluptates explicabo, voluptatem quidem soluta nesciunt accusantium perferendis, vel cumque aspernatur voluptatum perspiciatis id temporibus?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque soluta explicabo, ducimus necessitatibus beatae illum porro quo ut, quam quae repudiandae praesentium, architecto quibusdam? Suscipit fuga architecto repudiandae nihil. Deleniti?</p>
+</body>
+</html>
