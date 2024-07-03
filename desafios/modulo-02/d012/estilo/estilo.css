@@ -18,9 +18,14 @@ header {
     padding-top: 100px;
 }
 
-/* h1 {
-    
-} */
+h1 {
+    font-size: 5em;
+}
+
+section {
+    background-color: white;
+    font-weight: 800;
+}
 
 a {
     text-decoration: none;
