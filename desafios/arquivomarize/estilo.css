@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+/* .love-light-regular {
+  font-family: "Love Light", cursive;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fontedestaque: 'Love Light', cursive;
+    --cor01: white;
+    --cor02: rgb(190, 243, 243);
+    --cor03: rgb(236, 122, 122);
+}
+
+body {
+
+    background-color: var(--cor01);
+    font-family: var(--fontepadrao);
+}
+
+header {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: var(--fontedestaque);
+    font-size: 2em;
+}
+
+main {
+
+    background-color: var(--cor02);
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    border: 2px;
+    /* display: block; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: normal;
+}
+
+p {
+
+    font-family: var(--fontedestaque);
+    font-size: 2em;
+}
+
+section.segunda {
+
+    background-color: var(--cor03);
+}
