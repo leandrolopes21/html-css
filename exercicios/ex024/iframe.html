@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com iframe</title>
+
+    <style>
+
+        body {
+
+            text-align: center;
+        }
+
+        iframe {
+
+            display: block;
+            margin: auto;
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com iframe</h1>
+
+    <!-- Tamanho padrão do iframe 300px x 150px -->
+    
+    <p>
+        Vamos acessar o site do Android.
+        
+        <iframe src="https://leandrolopes21.github.io/projeto-android" frameborder="1"></iframe> 
+        
+        Esse site é muito legal!!
+    </p>
+    
+    <p>
+        Vamos acessar o site do Cordel Moderno.
+        
+        <iframe src="https://leandrolopes21.github.io/projeto-cordel" frameborder="1"></iframe>
+    </p>
+    <p>
+        Vamos acessar o site da Apple como teste.
+
+        <iframe src="https://www.apple.com.br" frameborder="1">
+            <a href="https://www.apple.com.br" target="_blank">Apple</a>
+        </iframe> <!-- O texto entre tags iframe aparecerá, caso o navegador não possa exibir o conteúdo do site no iframe. Isso também depende, pois neste teste nenhum navegador está apresentando a mensagem -->
+        
+    </p>
+</body>
+</html>
