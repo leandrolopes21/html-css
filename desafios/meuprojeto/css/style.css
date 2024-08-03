@@ -13,6 +13,12 @@ html, body {
 
 }
 
+body {
+    background: url(../imagens/piso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 main {
 
     position: relative;
@@ -36,7 +42,7 @@ section#iphone {
 div#tela > img {
 
     position: absolute;
-    /* background: url(../imagens/tela-home.jpg); */
+    background: url(../imagens/tela-home.jpg);
     background-size: cover;
     /* background-color: green; */
     width: 267px;
