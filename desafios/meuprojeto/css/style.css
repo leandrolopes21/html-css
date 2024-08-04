@@ -42,6 +42,7 @@ section#iphone { /* esta section representa o iphone */
 iframe#tela { /* este iframe representa o iframe com id=tela, que chama a página home.html */
 
     position: absolute;
+    background-color: white;
     width: 267px;
     height: 471px;
     top: 80px;
@@ -50,14 +51,21 @@ iframe#tela { /* este iframe representa o iframe com id=tela, que chama a págin
 
 section#social {
 
-    text-align: right;
+    text-align: left;
 }
 
 section#social img {
 
     width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600);
 }
+
+/* section#social > a {
+
+    width: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600);
+} */
