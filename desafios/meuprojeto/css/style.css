@@ -26,24 +26,33 @@ main {
 
 }
 
-section#iphone {
+section#iphone { /* esta section representa o iphone */
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, 10%);
-    background-color: white;
     width: 311px;
     height: 627px;
     background: url(../imagens/frame-iphone.png);
     
 }
 
-iframe#tela {
+iframe#tela { /* este iframe representa o iframe com id=tela, que chama a página home.html */
 
     position: absolute;
     width: 267px;
     height: 471px;
     top: 80px;
     left: 22px;
+}
+
+section#social { /* esta section representa os botões de tela de redes sociais */
+
+    position: absolute;
+    width: 267px;
+    height: 471px;
+    top: 80px;
+    left: 22px;
+    
 }
