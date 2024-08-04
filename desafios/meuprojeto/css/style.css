@@ -7,22 +7,23 @@
 
 html, body {
 
+    height: 100vh;
     width: 100vw;
-    height: 100vh;    
     background-color: black;
 
 }
 
 body {
-    background: url(../imagens/piso.jpg);
+
+    background: url(../imagens/piso.jpg) no-repeat top center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
 
     position: relative;
-    width: 100vw;
+    height: 100vh;
 
 }
 
@@ -31,7 +32,7 @@ section#iphone { /* esta section representa o iphone */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, -50%);
     width: 311px;
     height: 627px;
     background: url(../imagens/frame-iphone.png);
@@ -47,12 +48,16 @@ iframe#tela { /* este iframe representa o iframe com id=tela, que chama a págin
     left: 22px;
 }
 
-section#social { /* esta section representa os botões de tela de redes sociais */
+section#social {
 
-    position: absolute;
-    width: 267px;
-    height: 471px;
-    top: 80px;
-    left: 22px;
-    
+    text-align: right;
+}
+
+section#social img {
+
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
