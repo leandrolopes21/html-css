@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <h1>Formulário Média</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="ialuno">Aluno: </label>
+            <input type="text" name="nome" id="ialuno" required autocomplete="name" minlength="6" maxlength="25">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1">
+        </p>
+        <p>
+            <label for="idata">Data</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="itempo">Hora</label>
+            <input type="time" name="tempo" id="itempo" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
