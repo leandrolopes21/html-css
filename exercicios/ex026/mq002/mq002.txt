@@ -1,0 +1,4 @@
+mq002
+
+este arquivo index contém os estilos css separados,
+com links de chamada para cada estilo

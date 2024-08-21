@@ -1,0 +1,4 @@
+mq003
+
+este arquivo index contém os estilos css agrupados no mesmo arquivo index,
+configurados com a tag <style></style>
