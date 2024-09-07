@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.conteudo {
+    background-color: rgb(27, 82, 82);
+    height: 600px;
+    display: flex;    
+
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
+
+div.item {
+    background-color: rgb(217, 108, 108);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+
+    align-content: center;
+    text-align: center;
+}
