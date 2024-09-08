@@ -9,8 +9,7 @@
 div.conteudo {
     background-color: rgb(27, 82, 82);
     height: 600px;
-    display: flex;    
-
+    display: flex;
     flex-flow: column wrap-reverse;
     justify-content: center;
     align-content: space-between;
@@ -23,7 +22,6 @@ div.item {
     height: 100px;
     margin: 5px;
     border-radius: 5px;
-
     align-content: center;
     text-align: center;
 }
