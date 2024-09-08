@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;            
+        }
+
+        body {
+            background-color: aquamarine;            
+        }
+        main {
+            background-color: rgb(7, 100, 100);
+            width: 100vw;
+            height: 100vh;
+            display: flex; /* determina que este conteiner é o pai */
+            flex-flow: row nowrap;
+            justify-content: center; /* justify-content é usado para alinhamento dos itens em relação ao eixo principal (main-axis) */
+            align-items: center; /*align-items é usado para alinhamento dos itens em relação ao eixo transversal */            
+        }
+
+        section {
+            background-color: rgba(92, 20, 44, 0.7);
+            color: white;
+            width: 150px;
+            height: 150px;
+            text-align: center;       
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Tela de login</h1>
+        </section>
+    </main>
+</body>
+</html>
