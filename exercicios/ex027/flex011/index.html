@@ -15,12 +15,16 @@
             background-color: beige;
             border: 1px solid black;            
             text-align: center;
-            flex-basis: 200px;
+            flex-basis: 250px;
         }
+
+        /* flex-shrink é para diminuir um item no container, onde o valor 0 não pode diminuir, o valor 1 pode diminuir, e valores maiores são para diminuir proporcional a um valor de referência */
+
+        /* flex-grow é para aumentar um item no container, onde o valor 0 não pode aumentar, o valor 1 pode aumentar, e valores maiores são para aumentar proporcional a um valor de referência */
 
         div#i1 {
             flex-shrink: 0;
-            flex-grow: 4;
+            flex-grow: 3; 
         }
 
         div#i2 {
