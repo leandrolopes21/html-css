@@ -7,10 +7,11 @@
     <style>
 
         main.principal {
+
             background-color: lightgray;
-            height: 20vh;
+            height: flex;
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
                       
         }
 
@@ -18,31 +19,34 @@
 
             background-color: aqua;
             margin: 10px;
-            width: 300px;
+            width: 100%;
             text-align: center;
             align-content: center;
             
         }
 
-        div.conteiner1 {
+        div.conteiner1 { /* div com itens */
+
             background-color: burlywood;
-            width: 500px;
-            height: 50px;
-            
+            margin: 10px;
+            width: 100%;
+            height: flex;
+
+            display: flex;
+            flex-flow: row wrap;
             justify-content: center;
-            
+            align-items: center;
+               
         }
 
         div.item {
-            background-color: beige;
-            width: 50px;            
+
+            background-color: beige;           
             border: 1px solid black;
+            width: 100px;
             text-align: center;
             margin: 5px;
-
-            flex: auto;
             
-            align-content: center;
         }
     </style>
 </head>
@@ -56,8 +60,8 @@
             <div class="item">B</div>
             <div class="item">C</div>
             <div class="item">D</div>
-            <div class="item">E</div>
-            <div class="item">F</div>
+            <!--<div class="item">E</div>
+            <div class="item">F</div>-->
         </div>
     </main>
 </body>
