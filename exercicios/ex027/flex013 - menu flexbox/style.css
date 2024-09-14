@@ -10,19 +10,47 @@ body {
     background-color: rgb(226, 226, 226);
 }
 
-header {
+header.container {
     background-color: rgb(168, 168, 168);
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly ;
+    
 }
 
-h1 {
-    border: 1px dotted black;
+h1 { /* <h1>Meu Site Flexbox</h1> */
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 45%;
+    height: 30px;
+
+    align-content: center;
+    text-align: center; 
+    
+    font-size: 1.5em;
 }
 
-nav {
-    border: 1px dotted black;
+/* nav {
+    margin-top: 10px;
+    padding: 5px;
+    width: 50vw;
+    text-align: center;
+    
+}*/
+
+header > nav > a.bloco {
+    background-color: black;
+    color: white;    
+    padding: 5px;
+    border-radius: 10px;
 }
 
-main.container {
+main.container1 {
     background-color: white;
     width: 70vw;
     height: 50%;
