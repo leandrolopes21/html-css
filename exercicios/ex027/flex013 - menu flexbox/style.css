@@ -45,6 +45,7 @@ h1 { /* <h1>Meu Site Flexbox</h1> */
 
 header > nav > a.bloco {
     background-color: black;
+    width: 300px;
     color: white;    
     padding: 5px;
     border-radius: 10px;
