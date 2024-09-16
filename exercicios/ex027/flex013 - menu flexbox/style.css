@@ -11,44 +11,56 @@ body {
 }
 
 header.container {
+
     background-color: rgb(168, 168, 168);
-    width: 100vw;
-    height: 10vh;
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly ;
+    justify-content: center;
     
 }
 
 h1 { /* <h1>Meu Site Flexbox</h1> */
+    
     background-color: black;
     color: white;
+    margin: auto;
     padding: 5px;
     border-radius: 10px;
-    width: 45%;
+    min-width: 40vw;
     height: 30px;
 
-    align-content: center;
-    text-align: center; 
+    text-align: center;
+    align-content: center;   
     
     font-size: 1.5em;
 }
 
-/* nav {
-    margin-top: 10px;
-    padding: 5px;
-    width: 50vw;
-    text-align: center;
-    
-}*/
+nav {
 
-header > nav > a.bloco {
-    background-color: black;
-    width: 300px;
-    color: white;    
+    background-color: #662726;
+    margin: 10px;
     padding: 5px;
     border-radius: 10px;
+    min-width: 44vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+header > nav > a.bloco {
+
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin: 5px;  
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 main.container1 {
@@ -66,7 +78,8 @@ main.container1 {
 }
 
 #item { /* <h2 id="item">Texto para Flexbox</h2> */
-    background-color: beige;
+    background-color: #374E52;
+    color: white;
     margin: 5px;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.4);
@@ -79,7 +92,7 @@ main.container1 {
 }
 
 #item1 { /* <p id="item1">Texto Lorem</p> */
-    background-color: rgb(211, 255, 255);
+    background-color: #7D8A8C;
     margin: 5px;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.4);
